@@ -42,6 +42,7 @@ a {
 .left-col {
   width: 50%;
   text-align: center;
+  overflow: hidden;
 }
 
 .right-col {
@@ -125,7 +126,8 @@ a {
 }
 
 .intro,
-.experience {
+.experience,
+.education {
   padding: 50px;
 }
 
@@ -148,20 +150,23 @@ a {
   margin-bottom: 40px;
 }
 
-.experience__item h3 {
+.experience__item h3,
+.education__item h3 {
   margin: 0 0 10px;
   line-height: 1;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.experience__item h4 {
+.experience__item h4,
+.education__item h4 {
   margin: 0;
   line-height: 1;
   font-size: 15px;
   font-weight: 500;
 }
 
-.experience__item small {
+.experience__item small,
+.education__item small {
   color: #888888;
 }
