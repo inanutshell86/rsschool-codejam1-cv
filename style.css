@@ -9,6 +9,10 @@
 body {
   box-sizing: border-box;
   font-family: "Hind", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #3d3d50;
+  font-weight: 300;
   background-color: #f5f5f5;
 }
 
@@ -38,6 +42,7 @@ ul {
 
 .right-col {
   width: 50%;
+  background-color: #ffffff;
 }
 
 .header {
@@ -61,13 +66,13 @@ ul {
 }
 
 .profile-img:before {
-  content    : "";
-  position   : absolute;
-  left       : 0;
-  top        : 0;
-  right      : 0;
-  bottom     : 0;
-  background : linear-gradient(
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
     -30deg,
   rgba(42, 84, 245, 0.5) 0%,
   rgba(42, 84, 245, 0.5) 40%,
@@ -107,10 +112,25 @@ ul {
   line-height: 33px;
   text-align: center;
   border-radius: 100%;
-  border: 2px solid rgba(255, 255, 255, .2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
 }
 
 .social-list__link:hover {
   border-color : #ffffff;
+}
+
+.intro {
+  padding: 50px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.heading-secondary {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 700;
+  color: #bebece;
 }
