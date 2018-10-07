@@ -22,6 +22,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1024px;
   width: 100%;
@@ -120,7 +124,8 @@ ul {
   border-color : #ffffff;
 }
 
-.intro {
+.intro,
+.experience {
   padding: 50px;
 }
 
@@ -133,4 +138,30 @@ ul {
   line-height: 1.8;
   font-weight: 700;
   color: #bebece;
+}
+
+.gray-bg {
+  background-color: #f9f9f9;
+}
+
+.experience__item {
+  margin-bottom: 40px;
+}
+
+.experience__item h3 {
+  margin: 0 0 10px;
+  line-height: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.experience__item h4 {
+  margin: 0;
+  line-height: 1;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.experience__item small {
+  color: #888888;
 }
